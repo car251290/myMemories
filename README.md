@@ -5,6 +5,7 @@ using the frond end in React native and node.js for the back end part
 
 ## MongoDB Atlas
 Move faster with a true multi-cloud database service for MongoDB built for agile teams who’d rather spend time building apps than managing databases.
+only globally distributed, multi-cloud database. Deploy your data across 70+ regions or create a multi-cloud cluster to enable applications that make use of two or more clouds at the same time.
 
 ## HTTP Status Codes
 This page is created from HTTP status code information found at ietf.org and Wikipedia. 
