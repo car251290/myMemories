@@ -17,4 +17,8 @@ This page is created from HTTP status code information found at ietf.org and Wik
 Click on the category heading or the status code link to read more.
 for the link: https://www.restapitutorial.com/httpstatuscodes.html
 
+## Using a React envarioment 
 
+Component-Based
+
+Build encapsulated components that manage their own state, then compose them to make complex UIs.
