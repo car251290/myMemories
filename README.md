@@ -7,6 +7,8 @@ using the frond end in React native and node.js for the back end part
 Move faster with a true multi-cloud database service for MongoDB built for agile teams who’d rather spend time building apps than managing databases.
 only globally distributed, multi-cloud database. Deploy your data across 70+ regions or create a multi-cloud cluster to enable applications that make use of two or more clouds at the same time.
 
+When requirements and workloads change, MongoDB Atlas makes it easy to make post-deployment modifications to the database. Scale up, add more storage, configure cross-region clusters, create read-only or analytics nodes, and more with the click of a button.
+
 ## Automated Deployments
 Infrastructure provisioning, setup, and deployment is fully automated with MongoDB Atlas. Select a cloud provider, region, instance size, memory, and additional configurations in the Cluster Builder or via the API and be on your way.
 
