@@ -1,4 +1,6 @@
-import React from 'react';
+import React,{useEffect} from 'react';
+import {useDispatch} from 'react-redux';
+import {getPosts} from './actions/posts'
 import {Container,AppBar,Typography,Grow,Grid} from '@material-ui/core';
 import Posts from './components/Posts/Posts';
 import Form from './components/Form/Form';
@@ -7,6 +9,15 @@ import useStyle from './style';
 
 const App = () => {
     const classes = useStyle();
+    const dispatch = useDispatch();
+
+  useEffect( () => {
+      //the dispatch of the call for be postesd
+      dispatch(getPosts());
+
+
+  },[dispatch]);
+
     return (
         <Container maxidth="lg">
             <AppBar className={classes.AppBar} position="static" color="inherit">
