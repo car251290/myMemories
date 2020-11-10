@@ -25,6 +25,13 @@ Component-Based
 
 Build encapsulated components that manage their own state, then compose them to make complex UIs.
 
+## Hooks 
+
+React's new "hooks" APIs give function components the ability to use local component state, execute side effects, and more.
+
+React Redux now offers a set of hook APIs as an alternative to the existing connect() Higher Order Component. These APIs allow you to subscribe to the Redux store and dispatch actions, without having to wrap your components in connect().
+
+
 ## Material UI for the style of this APP
 it useful to builded and deploy it on an easy way to make it.
 https://material-ui.com
