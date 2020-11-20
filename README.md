@@ -1,5 +1,5 @@
 # myMemories
-My memories is one project to learn full stack use backend and front-end
+My memories is one project to learn full stack use backend,FrontEnd and React code using the react envarioment for my code to be styles and wirte it in JS 
 ## Memories Application to use front end and the back end part
 using the frond end in React native and node.js for the back end part
 
@@ -11,8 +11,6 @@ When requirements and workloads change, MongoDB Atlas makes it easy to make post
 
 ## Automated Deployments
 Infrastructure provisioning, setup, and deployment is fully automated with MongoDB Atlas. Select a cloud provider, region, instance size, memory, and additional configurations in the Cluster Builder or via the API and be on your way.
-
-
 
 ## HTTP Status Codes
 This page is created from HTTP status code information found at ietf.org and Wikipedia. 
