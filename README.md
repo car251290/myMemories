@@ -1,5 +1,11 @@
 # myMemories
 My memories is one project to learn full stack use backend,FrontEnd and React code using the react envarioment for my code to be styles and wirte it in JS 
+
+## Terminology
+MERN Stack
+
+
+
 ## Memories Application to use front end and the back end part
 using the frond end in React native and node.js for the back end part
 
