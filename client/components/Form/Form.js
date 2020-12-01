@@ -20,7 +20,7 @@ const Form =()=> {
                 variant= "outlined" 
                  label= "Creator" 
                  fullWidth
-                value = { postData.creator} onChange={postData.setPostData}
+                value = (e) => setPostData({ creator: e.target.value })
                 />
                 </form>
         </Paper>
