@@ -7,18 +7,30 @@ import postRoutes from './routes/posts.js';
 
 const app = express();
 
-app.use('/posts',postRoutes);
-
 app.use(bodyParser.json({ limit: '30mb', extended: true }))
 app.use(bodyParser.urlencoded({ limit: '30mb', extended: true }))
 app.use(cors());
 
-const CONNECTION_URL = 'mongodb+srv://javicarjc:Javicar251290@cluster0.2zaff.mongodb.net/<dbname>?retryWrites=true&w=majority'
+app.use('/posts',postRoutes);
 
-const PORT = proccess.env.PORT|| 5000;
+const CONNECTION_URL = `mongodb+srv://javicarjc:Carjavi251290@cluster0.2zaff.mongodb.net/<dbname>?retryWrites=true&w=majority`;
+//Carjavi251290
+
+
+//const MongoClient = require('mongodb').MongoClient;
+//const uri = "mongodb+srv://javicarjc:<password>@cluster0.2zaff.mongodb.net/<dbname>?retryWrites=true&w=majority";
+//const client = new MongoClient(uri, { useNewUrlParser: true });
+//client.connect(err => {
+//  const collection = client.db("test").collection("devices");
+  // perform actions on the collection object
+  //client.close();
+//});
+
+
+const PORT = process.env.PORT|| 5000;
 
 mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
-.then(()=> app.listen(PORT,()=> console.log(`Server is running on port: ${PORT}`)))
-.catch((error)=> console.log(error.message));
+  .then(() => app.listen(PORT, () => console.log(`Server Running on Port: ${PORT}`)))
+  .catch((error) => console.log(`${error} did not connect`));
 
-mongoose.set('useFindAndModify',false);
+mongoose.set('useFindAndModify', false);
