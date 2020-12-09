@@ -42,3 +42,10 @@ React Redux now offers a set of hook APIs as an alternative to the existing conn
 it useful to builded and deploy it on an easy way to make it.
 https://material-ui.com
 
+# Language 
+React(JS)
+
+# Requirements
+* Visual Studio
+* MongoDb
+* Macbook
