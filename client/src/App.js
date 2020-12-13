@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react';
+import React,{useState,useEffect} from 'react';
 import {useDispatch} from 'react-redux';
 import {getPosts} from './actions/posts'
 import {Container,AppBar,Typography,Grow,Grid} from '@material-ui/core';
@@ -8,15 +8,15 @@ import memories from './Images/memories.png'
 import useStyle from './style';
 
 const App = () => {
+    const [currentId,setcurrentId]= useState(null)
+
     const classes = useStyle();
     const dispatch = useDispatch();
 
   useEffect( () => {
       //the dispatch of the call for be postesd
       dispatch(getPosts());
-
-
-  },[dispatch]);
+  },[currentId,dispatch]);
 
     return (
         <Container maxidth="lg">
@@ -28,11 +28,11 @@ const App = () => {
                 <Container>
                     <Grid container justify="space-between" alignItems="stretch" spacing={3}>
                         <Grid item xs={12} sm={7}>
-                            <Posts/>
+                            <Posts setcurrentId={setcurrentId}/>
 
                         </Grid>
                         <Grid item xs={12} sm={4}>
-                            <Form/>
+                            <Form currentId={currentId} setcurrentId={setcurrentId}/>
                         </Grid>
                     </Grid>
                 </Container>
