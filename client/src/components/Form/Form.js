@@ -17,21 +17,23 @@ const Form = ({ currentId, setCurrentId }) => {
       if (post) setPostData(post);
     }, [post]);
   
-    const clear = () => {
-      setCurrentId(0);
-      setPostData({ creator: '', title: '', message: '', tags: '', selectedFile: '' });
-    };
-  
-    const handleSubmit = async (e) => {
+    const handleSubmit = (e) => {
       e.preventDefault();
   
-      if (currentId === 0) {
-        dispatch(createPost(postData));
-        clear();
+      if (currentId) {
+        dispatch(createPost(currentId,postData));
+        
       } else {
-        dispatch(updatePost(currentId, postData));
-        clear();
+        dispatch(updatePost(postData));
       }
+
+      clear();
+
+    };
+
+    const clear = () => {
+      setCurrentId(null);
+      setPostData({ creator: '', title: '', message: '', tags: '', selectedFile: '' });
     };
 
     return (
@@ -39,7 +41,7 @@ const Form = ({ currentId, setCurrentId }) => {
         <form autoComplete = 'off'
         noValidate className = { `${classes.root} ${classes.form}`}
         onSubmit = { handleSubmit }>
-           <Typography variant="h6">{currentId ? `Editing "${post.title}"` : 'Creating a Memory'}</Typography>
+           <Typography variant="h6">{currentId ? `Editing` : 'Creating'}a memory</Typography>
         <TextField name = "creator" variant = "outlined" label = "Creator"fullWidth value = { postData.creator }onChange = {(e) => setPostData({ ...postData,creator: e.target.value })}/>
           <TextField name = "title" variant = "outlined" label = "tile"fullWidth value = { postData.title }onChange = {(e) => setPostData({ ...postData,title: e.target.value })}/>
          

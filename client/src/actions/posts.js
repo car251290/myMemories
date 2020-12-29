@@ -1,4 +1,6 @@
-import * as api from '../api';
+import { FETCH_ALL, CREATE, UPDATE, DELETE } from '../constants/actionTypes';
+
+import * as api from '../api/index.js';
 
 //Action creators
 // async to success dispatch the action success using redux thunk
@@ -11,7 +13,7 @@ import * as api from '../api';
 
     }
    
-}
+};
 
 export const createPost = (post) => async (dispatch ) => {
     try{
@@ -24,7 +26,7 @@ export const createPost = (post) => async (dispatch ) => {
 
 
     }
-}
+};
 
 export const updatePost = (id,post) => async (dispatch) => {
     try{
@@ -34,8 +36,27 @@ export const updatePost = (id,post) => async (dispatch) => {
         dispatch({type:'UPDATE',payload:data});
 
     }catch(error){
-        console.log(error.message);
+        console.log(error);
 
     }
+};
+export const deletePost = (id) => async (dispatch) => {
+    try {
+      await await api.deletePost(id);
+  
+      dispatch({ type: DELETE, payload: id });
+    } catch (error) {
+      console.log(error.message);
+    }
+  };
 
-}
+  export const likeePost = (id) => async (dispatch) => {
+    try {
+      //return the response and get data for the post 
+      const{data} = await api.likePost(id);
+
+      dispatch({type:'UPDATE',payload:data});
+    } catch (error) {
+      console.log(error.message);
+    }
+  };

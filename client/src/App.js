@@ -6,6 +6,7 @@ import Posts from './components/Posts/Posts';
 import Form from './components/Form/Form';
 import memories from './Images/memories.png'
 import useStyle from './style';
+//import reducers from './reducers/index.js';
 
 const App = () => {
     const [currentId,setcurrentId]= useState(null)
