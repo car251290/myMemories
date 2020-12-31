@@ -41,9 +41,12 @@ it useful to builded and deploy it on an easy way to make it.
 https://material-ui.com
 
 ## Working in post the Backend using HEROKU
+Data on Heroku
+Build data-driven apps where the store of the back end of the app will be laungched and give the opportunity to watch it with out running in the local host. working in this learning how to launch the APP
 https://www.heroku.com/home
 
 ## For the Front end using Netlify.js
+Using this great JS platform, launch the back end where will be visual and use an URL of the project
 https://www.netlify.com
 
 # Language 
@@ -53,3 +56,6 @@ React(JS)
 * Visual Studio
 * MongoDb
 * Macbook
+* Netlify
+* Heroku
+* Material UI (for the design in mobile device and responsive application)
