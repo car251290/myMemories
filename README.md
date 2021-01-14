@@ -26,6 +26,11 @@ for the link: https://www.restapitutorial.com/httpstatuscodes.html
 Component-Based
 
 Build encapsulated components that manage their own state, then compose them to make complex UIs.
+and using element as Cards made for the Material UI for give a smooth presentation
+
+## Material UI for the style of this APP
+it useful to builded and deploy it on an easy way to make it.
+https://material-ui.com
 
 ## Hooks 
 
@@ -34,11 +39,6 @@ React's new "hooks" APIs give function components the ability to use local compo
 React Redux now offers a set of hook APIs as an alternative to the existing connect() Higher Order Component. These APIs allow you to subscribe to the Redux store and dispatch actions, without having to wrap your components in connect().
 
  The selector will be called with the entire Redux store state as its only argument. The selector will be run whenever the function component renders (unless its reference hasn't changed since a previous render of the component so that a cached result can be returned by the hook without re-running the selector). useSelector() will also subscribe to the Redux store, and run your selector whenever an action is dispatched.
-
-
-## Material UI for the style of this APP
-it useful to builded and deploy it on an easy way to make it.
-https://material-ui.com
 
 ## Working in post the Backend using HEROKU
 Data on Heroku
