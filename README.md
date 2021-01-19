@@ -46,7 +46,7 @@ Build data-driven apps where the store of the back end of the app will be laungc
 https://www.heroku.com/home
 
 ## For the Front end using Netlify.js
-Using this great JS platform, launch the back end where will be visual and use an URL of the project
+Using this great JS platform, launch the Back End where will be visual and use an URL of the project
 https://www.netlify.com
 
 # Language 
@@ -56,7 +56,6 @@ JavaScript
 # Requirements
 * Visual Studio
 * MongoDb
-* Macbook
 * Netlify
 * Heroku
 * Material UI (for the design in mobile device and responsive application)
