@@ -13,6 +13,9 @@ only globally distributed, multi-cloud database. Deploy your data across 70+ reg
 
 When requirements and workloads change, MongoDB Atlas makes it easy to make post-deployment modifications to the database. Scale up, add more storage, configure cross-region clusters, create read-only or analytics nodes, and more with the click of a button.
 
+## Collection have documents or objects and documents looks like JSON objects
+## inside each document you have the data with key-value pairs or arrays of items.
+
 ## Automated Deployments
 Infrastructure provisioning, setup, and deployment is fully automated with MongoDB Atlas. Select a cloud provider, region, instance size, memory, and additional configurations in the Cluster Builder or via the API and be on your way.
 
@@ -57,5 +60,5 @@ JavaScript
 * Visual Studio
 * MongoDb
 * Netlify
-* Heroku
+* Heroku (deploy application)
 * Material UI (for the design in mobile device and responsive application)
