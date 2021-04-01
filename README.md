@@ -11,8 +11,6 @@ using the frond end in React and node.js for the back end part
 Move faster with a true multi-cloud database service for MongoDB built for agile teams who’d rather spend time building apps than managing databases.
 only globally distributed, multi-cloud database. Deploy your data across 70+ regions or create a multi-cloud cluster to enable applications that make use of two or more clouds at the same time.
 
-When requirements and workloads change, MongoDB Atlas makes it easy to make post-deployment modifications to the database. Scale up, add more storage, configure cross-region clusters, create read-only or analytics nodes, and more with the click of a button.
-
 ## Collection have documents or objects and documents looks like JSON objects
 ## inside each document you have the data with key-value pairs or arrays of items.
 
@@ -35,6 +33,7 @@ Build encapsulated components that manage their own state, then compose them to 
 and using element as Cards made for the Material UI for give a smooth presentation
 
 ## Material UI for the style of this APP
+
 it useful to builded and deploy it on an easy way to make it.
 https://material-ui.com
 
@@ -47,6 +46,7 @@ React Redux now offers a set of hook APIs as an alternative to the existing conn
  The selector will be called with the entire Redux store state as its only argument. The selector will be run whenever the function component renders (unless its reference hasn't changed since a previous render of the component so that a cached result can be returned by the hook without re-running the selector). useSelector() will also subscribe to the Redux store, and run your selector whenever an action is dispatched.
 
 ## Working in post the Backend using HEROKU
+
 Data on Heroku
 Build data-driven apps where the store of the back end of the app will be laungched and give the opportunity to watch it with out running in the local host. working in this learning how to launch the APP
 https://www.heroku.com/home
