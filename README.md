@@ -17,13 +17,12 @@ only globally distributed, multi-cloud database. Deploy your data across 70+ reg
 ## Automated Deployments
 Infrastructure provisioning, setup, and deployment is fully automated with MongoDB Atlas. Select a cloud provider, region, instance size, memory, and additional configurations in the Cluster Builder or via the API and be on your way.
 
-## https request
-Let's imagine we wouldn't just return a result, as we do at the moment, but would act properly on the received operation instead. For instance, the Express server could be connected to a database that stores user entities in a user table. Now, when consuming the REST API as a client (e.g. cURL, browser, or also a React.js application), you could retrieve all users from the database with a HTTP GET method on the /users URI or, on the same resource, create a new user with a HTTP POST method.
-
 ## HTTP Status Codes
 This page is created from HTTP status code information found at ietf.org and Wikipedia. 
 Click on the category heading or the status code link to read more.
 for the link: https://www.restapitutorial.com/httpstatuscodes.html
+
+Let's imagine we wouldn't just return a result, as we do at the moment, but would act properly on the received operation instead. For instance, the Express server could be connected to a database that stores user entities in a user table. Now, when consuming the REST API as a client (e.g. cURL, browser, or also a React.js application), you could retrieve all users from the database with a HTTP GET method on the /users URI or, on the same resource, create a new user with a HTTP POST method.
 
 ## Using a React envarioment 
 
@@ -45,7 +44,7 @@ React Redux now offers a set of hook APIs as an alternative to the existing conn
 
  The selector will be called with the entire Redux store state as its only argument. The selector will be run whenever the function component renders (unless its reference hasn't changed since a previous render of the component so that a cached result can be returned by the hook without re-running the selector). useSelector() will also subscribe to the Redux store, and run your selector whenever an action is dispatched.
 
-## Working in post the Backend using HEROKU
+## Working in post using HEROKU
 
 Data on Heroku
 Build data-driven apps where the store of the back end of the app will be laungched and give the opportunity to watch it with out running in the local host. working in this learning how to launch the APP
