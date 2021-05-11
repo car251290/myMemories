@@ -56,7 +56,6 @@ https://www.netlify.com
 
 # Language 
 React(JS)
-JavaScript
 
 # Requirements
 * Visual Studio
