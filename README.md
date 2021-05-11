@@ -12,7 +12,6 @@ Move faster with a true multi-cloud database service for MongoDB built for agile
 only globally distributed, multi-cloud database. Deploy your data across 70+ regions or create a multi-cloud cluster to enable applications that make use of two or more clouds at the same time.
 
 ## Collection have documents or objects and documents looks like JSON objects
-## inside each document you have the data with key-value pairs or arrays of items.
 
 ## Automated Deployments
 Infrastructure provisioning, setup, and deployment is fully automated with MongoDB Atlas. Select a cloud provider, region, instance size, memory, and additional configurations in the Cluster Builder or via the API and be on your way.
