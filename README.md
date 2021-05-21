@@ -24,8 +24,6 @@ Let's imagine we wouldn't just return a result, as we do at the moment, but woul
 ## MongoDb
 MongoDB Atlas comes with built-in operational best practices so you can focus on delivering business value and accelerating application development instead of managing databases.
 
-## Using a React envarioment 
-
 Component-Based
 
 Build encapsulated components that manage their own state, then compose them to make complex UIs.
