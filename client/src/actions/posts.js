@@ -1,61 +1,55 @@
-import { FETCH_ALL, CREATE, UPDATE, DELETE  } from '../constants/actionTypes';
+import { FETCH_ALL, CREATE, UPDATE, DELETE, LIKE } from '../constants/actionTypes';
 
 import * as api from '../api/index.js';
 
-//Action creators
-// async to success dispatch the action success using redux thunk
- export const getPosts = () => async (dispatch) => {
-    try {
-        const {data} = await api.fetchPosts();
-        dispatch ({type: FETCH_ALL ,payload:data});
-    } catch(error){
-        console.log(error.message)
+export const getPosts = () => async (dispatch) => {
+  try {
+    const { data } = await api.fetchPosts();
 
-    }
-   
+    dispatch({ type: FETCH_ALL, payload: data });
+  } catch (error) {
+    console.log(error.message);
+  }
 };
+//Craete the poast request 
+export const createPost = (post) => async (dispatch) => {
+  try {
+    const { data } = await api.createPost(post);
 
-export const createPost = (post) => async (dispatch ) => {
-    try{
-        const {data}= await api.createPost(post);
-        dispatch({type: CREATE , payload:data});
-
-    }catch (error){
-        console.log(error);
-
-
-    }
+    dispatch({ type: CREATE, payload: data });
+  } catch (error) {
+    console.log(error.message);
+  }
 };
+//update the data of the post
+export const updatePost = (id, post) => async (dispatch) => {
+  try {
+    const { data } = await api.updatePost(id, post);
 
-export const updatePost = (id,post) => async (dispatch) => {
-    try{
-        //return the response and get data for the post 
-       const{data} = await api.updatePost(id,post);
-
-        dispatch({type: UPDATE,payload:data});
-
-    }catch(error){
-        console.log(error);
-
-    }
+    dispatch({ type: UPDATE, payload: data });
+  } catch (error) {
+    console.log(error.message);
+  }
 };
+//make likes of the post using the id
+export const likePost = (id) => async (dispatch) => {
+  try {
+    const { data } = await api.likePost(id);
+
+    dispatch({ type: LIKE, payload: data });
+  } catch (error) {
+
+    console.log(error.message);
+  }
+};
+// delate the post 
 export const deletePost = (id) => async (dispatch) => {
-    try {
-      await await api.deletePost(id);
-  
-      dispatch({ type: DELETE, payload: id });
-    } catch (error) {
-      console.log(error.message);
-    }
-  };
+  try {
 
-  export const likeePost = (id) => async (dispatch) => {
-    try {
-      //return the response and get data for the post 
-      const{data} = await api.likePost(id);
+    await api.deletePost(id);
 
-      dispatch({type: UPDATE,payload:data});
-    } catch (error) {
-      console.log(error.message);
-    }
-  };
+    dispatch({ type: DELETE, payload: id });
+  } catch (error) {
+    console.log(error.message);
+  }
+};
