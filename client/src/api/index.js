@@ -7,9 +7,9 @@ export const fetchPosts = () => axios.get(url);
 export const createPost = (newPost) => axios.post(url,newPost)
 //for get the api and update the post.
 export const updatePost= (id,updatePost) => axios.patch(`${url}/${id}`,updatePost);
-
+// for get the delete post 
 export const deletePost = (id) => axios.delete(`${url}/${id}`);
-
+// for get the likePost 
 export const likePost = (id) => axios.patch(`${url}/${id}/likePost`);
 
 
