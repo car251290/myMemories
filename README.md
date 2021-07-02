@@ -22,7 +22,7 @@ for the link: https://www.restapitutorial.com/httpstatuscodes.html
 Let's imagine we wouldn't just return a result, as we do at the moment, but would act properly on the received operation instead. For instance, the Express server could be connected to a database that stores user entities in a user table. Now, when consuming the REST API as a client (e.g. cURL, browser,also a React.js application), you could retrieve all users from the database with a HTTP GET method on the users URI on the same resource, create a new user with a HTTP POST method.
 
 ## MongoDb
-MongoDB Atlas comes with built-in operational best practices so you can focus on delivering business value and accelerating application development instead of managing databases.
+MongoDB Atlas comes with built-in operational best practices so you can focus on delivering business value and accelerating application development instead of managing databases,the Cluster Builder or via the API and be on your way.
 
 ## Component-Based
 
