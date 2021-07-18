@@ -53,7 +53,7 @@ Using this great JS platform, launch the Back End where will be visual and use a
 https://www.netlify.com
 
 # Language 
-### React(JS)
+## React(JS)
 
 # Requirements
 * Visual Studio
