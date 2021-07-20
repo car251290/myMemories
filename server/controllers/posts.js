@@ -1,6 +1,5 @@
 import express from 'express';
 import mongoose from 'mongoose';
-
 import PostMessage from '../models/postMessage.js';
 
 const router = express.Router();
@@ -66,7 +65,7 @@ export const deletePost = async (req, res) => {
 // the like to the post 
 export const likePost = async (req, res) => {
     const { id } = req.params;
-
+// if stament
     if (!mongoose.Types.ObjectId.isValid(id)) return res.status(404).send(`No post with id: ${id}`);
     // the PostMessage of the Id
     const post = await PostMessage.findById(id);
