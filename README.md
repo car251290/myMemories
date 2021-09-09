@@ -22,6 +22,9 @@ Let's imagine we wouldn't just return a result, as we do at the moment, but woul
 ## MongoDb
 MongoDB Atlas comes with built-in operational best practices so you can focus on delivering business value and accelerating application development instead of managing databases,the Cluster Builder or via the API and be on your way.
 
+## The cloud mode
+to get the request into the cloud
+
 ## Component-Based
 
 Build encapsulated components that manage their own state, then compose them to make complex UIs.
