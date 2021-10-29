@@ -50,9 +50,6 @@ https://www.heroku.com/home
 Using this great JS platform, launch the Back End where will be visual and use an URL of the project
 https://www.netlify.com
 
-# Language 
-## React(JS)
-
 # Requirements
 * Visual Studio
 * MongoDb
