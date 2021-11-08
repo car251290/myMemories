@@ -1,7 +1,6 @@
 # myMemories
 My memories is one project to learn full stack use backend,FrontEnd and React code using the react envarioment for my code to be styles and wirte it in JS 
 
-## Terminology MERN
 ## Memories Application to use front end and the back end part
 using the frond end in React and node.js for the back end part
 
@@ -33,7 +32,6 @@ it useful to builded and deploy it on an easy way to make it.
 https://material-ui.com
 
 ## Hooks 
-
 React's new "hooks" APIs give function components the ability to use local component state, execute side effects, and more.
 
 React Redux now offers a set of hook APIs as an alternative to the existing connect() Higher Order Component. These APIs allow you to subscribe to the Redux store and dispatch actions, without having to wrap your components in connect().
