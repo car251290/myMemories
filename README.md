@@ -21,6 +21,10 @@ Let's imagine we wouldn't just return a result, as we do at the moment, but woul
 ## MongoDb
 MongoDB Atlas comes with built-in operational best practices so you can focus on delivering business value and accelerating application development instead of managing databases,the Cluster Builder or via the API and be on your way.
 
+## MongoDB Atlas
+Move faster with a true multi-cloud database service for MongoDB built for agile teams who’d rather spend time building apps than managing databases.
+only globally distributed, multi-cloud database.
+
 ## Component-Based
 
 Build encapsulated components that manage their own state, then compose them to make complex UIs.
@@ -38,15 +42,15 @@ React Redux now offers a set of hook APIs as an alternative to the existing conn
 
  The selector will be called with the entire Redux store state as its only argument. The selector will be run whenever the function component renders (unless its reference hasn't changed since a previous render of the component so that a cached result can be returned by the hook without re-running the selector). useSelector() will also subscribe to the Redux store, and run your selector whenever an action is dispatched.
 
-## Using Heroku can be available for everyone
-
-Data on Heroku
-Build data-driven apps where the store of the back end of the app will be laungched and give the opportunity to watch it with out running in the local host. working in this learning how to launch the APP
-https://www.heroku.com/home
 
 ## For the Front end using Netlify.js
 Using this great JS platform, launch the Back End where will be visual and use an URL of the project
 https://www.netlify.com
+
+## Using Heroku can be available for everyone
+Data on Heroku
+Build data-driven apps where the store of the back end of the app will be laungched and give the opportunity to watch it with out running in the local host. working in this learning how to launch the APP
+https://www.heroku.com/home
 
 # Requirements
 * Visual Studio
