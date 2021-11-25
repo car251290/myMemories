@@ -3,6 +3,8 @@ My memories is one project to learn full stack use backend,FrontEnd and React co
 
 ## Memories Application to use front end and the back end part
 using the frond end in React and node.js for the back end part
+## MongoDb
+MongoDB Atlas comes with built-in operational best practices so you can focus on delivering business value and accelerating application development instead of managing databases,the Cluster Builder or via the API and be on your way.
 
 ## MongoDB Atlas
 Move faster with a true multi-cloud database service for MongoDB built for agile teams who’d rather spend time building apps than managing databases.
@@ -17,13 +19,6 @@ Click on the category heading or the status code link to read more.
 for the link: https://www.restapitutorial.com/httpstatuscodes.html
 
 Let's imagine we wouldn't just return a result, as we do at the moment, but would act properly on the received operation instead. For instance, the Express server could be connected to a database that stores user entities in a user table. Now, when consuming the REST API as a client (e.g. cURL, browser,also a React.js application), you could retrieve all users from the database with a HTTP GET method on the users URI on the same resource, create a new user with a HTTP POST method.
-
-## MongoDb
-MongoDB Atlas comes with built-in operational best practices so you can focus on delivering business value and accelerating application development instead of managing databases,the Cluster Builder or via the API and be on your way.
-
-## MongoDB Atlas
-Move faster with a true multi-cloud database service for MongoDB built for agile teams who’d rather spend time building apps than managing databases.
-only globally distributed, multi-cloud database.
 
 ## Component-Based
 
@@ -42,9 +37,8 @@ React Redux now offers a set of hook APIs as an alternative to the existing conn
 
  The selector will be called with the entire Redux store state as its only argument. The selector will be run whenever the function component renders (unless its reference hasn't changed since a previous render of the component so that a cached result can be returned by the hook without re-running the selector). useSelector() will also subscribe to the Redux store, and run your selector whenever an action is dispatched.
  
- #Node.js 
+ ## Node.js 
  using this code for the back end code to make the request code
-
 
 ## For the Front end using Netlify.js
 Using this great JS platform, launch the Back End where will be visual and use an URL of the project
