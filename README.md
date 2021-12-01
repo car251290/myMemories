@@ -52,6 +52,7 @@ https://www.heroku.com/home
 # Requirements
 * Visual Studio
 * Node.js
+* Express
 * MongoDb
 * Netlify
 * Heroku (deploy application)
