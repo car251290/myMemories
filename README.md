@@ -38,8 +38,10 @@ React Redux now offers a set of hook APIs as an alternative to the existing conn
  The selector will be called with the entire Redux store state as its only argument. The selector will be run whenever the function component renders (unless its reference hasn't changed since a previous render of the component so that a cached result can be returned by the hook without re-running the selector). useSelector() will also subscribe to the Redux store, and run your selector whenever an action is dispatched.
  
  ## Node.js 
+ https://nodejs.org/en/about/
  using this code for the back end code to make the request code
-
+ HTTP is a first-class citizen in Node.js, designed with streaming and low latency in mind. This makes Node.js well suited for the foundation of a web library or framework.
+ 
 ## For the Front end using Netlify.js
 Using this great JS platform, launch the Back End where will be visual and use an URL of the project
 https://www.netlify.com
