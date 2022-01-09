@@ -41,6 +41,7 @@ React Redux now offers a set of hook APIs as an alternative to the existing conn
  https://nodejs.org/en/about/
  using this code for the back end code to make the request code
  HTTP is a first-class citizen in Node.js, designed with streaming and low latency in mind. This makes Node.js well suited for the foundation of a web library or framework.
+ HTTP is a first-class citizen in Node.js, designed with streaming and low latency in mind. This makes Node.js well suited for the foundation of a web library or framework.
  
 ## For the Front end using Netlify.js
 Using this great JS platform, launch the Back End where will be visual and use an URL of the project
