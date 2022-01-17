@@ -3,12 +3,9 @@ My memories is one project to learn full stack use backend,FrontEnd and React co
 
 ## Memories Application to use front end and the back end part
 using the frond end in React and node.js for the back end part
+
 ## MongoDb
 MongoDB Atlas comes with built-in operational best practices so you can focus on delivering business value and accelerating application development instead of managing databases,the Cluster Builder or via the API and be on your way.
-
-## MongoDB Atlas
-Move faster with a true multi-cloud database service for MongoDB built for agile teams who’d rather spend time building apps than managing databases.
-only globally distributed, multi-cloud database.
 
 ## Automated Deployments
 Infrastructure provisioning, setup, and deployment is fully automated with MongoDB Atlas. Select a cloud provider, region, instance size, memory, and additional configurations in the Cluster Builder or via the API and be on your way.
