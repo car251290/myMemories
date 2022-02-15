@@ -61,5 +61,5 @@ https://www.heroku.com/home
 * Express
 * MongoDb
 * Netlify
-* Heroku (deploy application)
+* Heroku (deploy application to the internet)
 * Material UI (for the design in mobile device and responsive application)
