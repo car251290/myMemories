@@ -15,7 +15,6 @@ This page is created from HTTP status code information found at ietf.org and Wik
 Click on the category heading or the status code link to read more.
 for the link: https://www.restapitutorial.com/httpstatuscodes.html
 
-Let's imagine we wouldn't just return a result, as we do at the moment, but would act properly on the received operation instead. For instance, the Express server could be connected to a database that stores user entities in a user table. Now, when consuming the REST API as a client (e.g. cURL, browser,also a React.js application), you could retrieve all users from the database with a HTTP GET method on the users URI on the same resource, create a new user with a HTTP POST method.
 
 ## Netlify
 Build scalable,
