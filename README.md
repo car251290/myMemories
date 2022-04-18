@@ -44,6 +44,18 @@ React Redux now offers a set of hook APIs as an alternative to the existing conn
  HTTP is a first-class citizen in Node.js, designed with streaming and low latency in mind. This makes Node.js well suited for the foundation of a web library or framework.
  HTTP is a first-class citizen in Node.js, designed with streaming and low latency in mind. This makes Node.js well suited for the foundation of a web library or framework.
  
+ ## Hook callbacks
+
+Key events in the lifetime of asynchronous events have been categorized into four areas: instantiation, before/after the callback is called, and when the instance is destroyed.
+
+init(asyncId, type, triggerAsyncId, resource)#
+
+asyncId <number> A unique ID for the async resource.
+type <string> The type of the async resource.
+triggerAsyncId <number> The unique ID of the async resource in whose execution context this async resource was created.
+resource <Object> Reference to the resource representing the async operation, needs to be released during destroy.
+ 
+ 
 ## For the Front end using Netlify.js
 Using this great JS platform, launch the Back End where will be visual and use an URL of the project
 https://www.netlify.com
