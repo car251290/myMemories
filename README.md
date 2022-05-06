@@ -15,6 +15,7 @@ This page is created from HTTP status code information found at ietf.org and Wik
 Click on the category heading or the status code link to read more.
 for the link: https://www.restapitutorial.com/httpstatuscodes.html
 
+
 ## Netlify
 Build scalable,
 dynamic applications
@@ -43,6 +44,14 @@ React Redux now offers a set of hook APIs as an alternative to the existing conn
  using this code for the back end code to make the request code
  HTTP is a first-class citizen in Node.js, designed with streaming and low latency in mind. This makes Node.js well suited for the foundation of a web library or framework.
  HTTP is a first-class citizen in Node.js, designed with streaming and low latency in mind. This makes Node.js well suited for the foundation of a web library or framework.
+ 
+ Class: AsyncLocalStorage#
+History
+This class creates stores that stay coherent through asynchronous operations.
+
+While you can create your own implementation on top of the node:async_hooks module, AsyncLocalStorage should be preferred as it is a performant and memory safe implementation that involves significant optimizations that are non-obvious to implement.
+
+The following example uses AsyncLocalStorage to build a simple logger that assigns IDs to incoming HTTP requests and includes them in messages logged within each request.
  
  ## Hook callbacks
 
