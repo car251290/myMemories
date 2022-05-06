@@ -39,6 +39,17 @@ React Redux now offers a set of hook APIs as an alternative to the existing conn
 
  The selector will be called with the entire Redux store state as its only argument. The selector will be run whenever the function component renders (unless its reference hasn't changed since a previous render of the component so that a cached result can be returned by the hook without re-running the selector). useSelector() will also subscribe to the Redux store, and run your selector whenever an action is dispatched.
  
+ ## Hook callbacks
+
+Key events in the lifetime of asynchronous events have been categorized into four areas: instantiation, before/after the callback is called, and when the instance is destroyed.
+
+init(asyncId, type, triggerAsyncId, resource)#
+
+asyncId <number> A unique ID for the async resource.
+type <string> The type of the async resource.
+triggerAsyncId <number> The unique ID of the async resource in whose execution context this async resource was created.
+resource <Object> Reference to the resource representing the async operation, needs to be released during destroy.
+ 
  ## Node.js 
  https://nodejs.org/en/about/
  using this code for the back end code to make the request code
@@ -52,17 +63,6 @@ This class creates stores that stay coherent through asynchronous operations.
 While you can create your own implementation on top of the node:async_hooks module, AsyncLocalStorage should be preferred as it is a performant and memory safe implementation that involves significant optimizations that are non-obvious to implement.
 
 The following example uses AsyncLocalStorage to build a simple logger that assigns IDs to incoming HTTP requests and includes them in messages logged within each request.
- 
- ## Hook callbacks
-
-Key events in the lifetime of asynchronous events have been categorized into four areas: instantiation, before/after the callback is called, and when the instance is destroyed.
-
-init(asyncId, type, triggerAsyncId, resource)#
-
-asyncId <number> A unique ID for the async resource.
-type <string> The type of the async resource.
-triggerAsyncId <number> The unique ID of the async resource in whose execution context this async resource was created.
-resource <Object> Reference to the resource representing the async operation, needs to be released during destroy.
  
  
 ## For the Front end using Netlify.js
