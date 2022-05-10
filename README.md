@@ -22,6 +22,10 @@ dynamic applications
 Deploy server-side code that works as API endpoints, runs automatically in response to events, or processes more complex jobs in the background.
 Netlify is a web developer platform that multiplies productivity. By unifying the elements of the modern decoupled web, from local development to advanced edge logic, Netlify enables a 10x faster path to much more performant, secure, and scalable websites and apps.
 
+## Generate Deploy Previews
+One of the most useful aspects of Netlify is the ability to generate unique Deploy Previews for each pull/merge request. Every push to the pull/merge request updates the Deploy Preview and generates a unique atomic deploy with a permalink that you can share and refer back to.
+
+
 ## Component-Based
 
 Build encapsulated components that manage their own state, then compose them to make complex UIs.
