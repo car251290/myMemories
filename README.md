@@ -1,12 +1,6 @@
 # myMemories
 My memories is one project to learn full stack use backend,FrontEnd and React envarioment for my code to be styles and wirte it in JS 
- 200 OK
-The request has succeeded. The information returned with the response is dependent on the method used in the request, for example:
 
-GET an entity corresponding to the requested resource is sent in the response;
-HEAD the entity-header fields corresponding to the requested resource are sent in the response without any message-body;
-POST an entity describing or containing the result of the action;
-TRACE an entity containing the request message as received by the end server.
 
 ## Memories Application to use front end and the back end part
 using the frond end in React and node.js for the back end part
@@ -21,6 +15,14 @@ Infrastructure provisioning, setup, and deployment is fully automated with Mongo
 This page is created from HTTP status code information found at ietf.org and Wikipedia. 
 Click on the category heading or the status code link to read more.
 for the link: https://www.restapitutorial.com/httpstatuscodes.html
+
+ 200 OK
+The request has succeeded. The information returned with the response is dependent on the method used in the request, for example:
+
+GET an entity corresponding to the requested resource is sent in the response;
+HEAD the entity-header fields corresponding to the requested resource are sent in the response without any message-body;
+POST an entity describing or containing the result of the action;
+TRACE an entity containing the request message as received by the end server.
 
 
 ## Netlify
