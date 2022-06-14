@@ -24,6 +24,13 @@ The request has succeeded. The information returned with the response is depende
 Why is port 500 open?
 UDP Port 500 should be opened to allow Internet Security Association and Key Management Protocol (ISAKMP) traffic to be forwarded through your firewalls.
 
+What is a 500 response code?
+Image result for port 200, 400, 500 HTTPS calls
+The HTTP status code 500 is a generic error response. It means that the server encountered an unexpected condition that prevented it from fulfilling the request. This error is usually returned by the server when no other error code is suitable.
+
+400 Bad Request
+The HyperText Transfer Protocol (HTTP) 400 Bad Request response status code indicates that the server cannot or will not process the request due to something that is perceived to be a client error (for example, malformed request syntax, invalid request message framing, or deceptive request routing)
+
 GET an entity corresponding to the requested resource is sent in the response;
 HEAD the entity-header fields corresponding to the requested resource are sent in the response without any message-body;
 POST an entity describing or containing the result of the action;
