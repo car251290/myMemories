@@ -1,6 +1,8 @@
 # myMemories
 My memories is one project to learn full stack use backend,FrontEnd and React envarioment for my code to be styles and wirte it in JS 
 
+## MERN
+MERN, which stands for MongoDB, Express, React, and Node. js, is a popular tech stack used in building web applications. It involves frontend work (with React), backend work (with Express and NodeJS) and a database (with MongoDB)
 
 ## Memories Application to use front end and the back end part
 using the frond end in React and node.js for the back end part
