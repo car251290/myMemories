@@ -10,6 +10,8 @@ using the frond end in React and node.js for the back end part
 ## MongoDb
 MongoDB Atlas comes with built-in operational best practices so you can focus on delivering business value and accelerating application development instead of managing databases,the Cluster Builder or via the API and be on your way.
 
+MongoDB Atlas provides recommended global cluster configurations so you can deliver a great experience to all your users around the world. At a click of a button, place the most relevant data near local application servers to ensure low-latency reads and writes.
+
 ## Automated Deployments
 Infrastructure provisioning, setup, and deployment is fully automated with MongoDB Atlas. Select a cloud provider, region, instance size, memory, and additional configurations in the Cluster Builder or via the API and be on your way.
 
